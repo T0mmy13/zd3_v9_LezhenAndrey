@@ -1,0 +1,10 @@
+C:\Шарага\мироша\qwerty\bin\Debug\qwerty.exe.config
+C:\Шарага\мироша\qwerty\bin\Debug\qwerty.exe
+C:\Шарага\мироша\qwerty\bin\Debug\qwerty.pdb
+C:\Шарага\мироша\qwerty\obj\Debug\qwerty.csproj.AssemblyReference.cache
+C:\Шарага\мироша\qwerty\obj\Debug\qwerty.Form1.resources
+C:\Шарага\мироша\qwerty\obj\Debug\qwerty.Properties.Resources.resources
+C:\Шарага\мироша\qwerty\obj\Debug\qwerty.csproj.GenerateResource.cache
+C:\Шарага\мироша\qwerty\obj\Debug\qwerty.csproj.CoreCompileInputs.cache
+C:\Шарага\мироша\qwerty\obj\Debug\qwerty.exe
+C:\Шарага\мироша\qwerty\obj\Debug\qwerty.pdb
