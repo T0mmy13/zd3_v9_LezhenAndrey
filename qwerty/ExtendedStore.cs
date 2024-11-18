@@ -22,14 +22,13 @@ namespace qwerty
         public decimal CalculateCombinedQuality()
         {
             decimal baseQuality = CalculateQuality();
-            if(CustomersCount > 50000)
-            {
-                return Math.Round(2 * baseQuality);
-            }
-            else
-            {
-                return Math.Round(0.5m * baseQuality);
-            }
+            return Math.Round(
+                new[] {
+                    2 * baseQuality,
+                    0.5m * baseQuality
+                }
+                .Where((value, index) => CustomersCount > 50000 ^ index == 1)
+                .First());
         }
         public string GetStoreSummary()
         {

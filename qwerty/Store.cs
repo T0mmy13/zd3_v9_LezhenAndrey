@@ -34,10 +34,7 @@ namespace qwerty
         }
         public void RemoveSales(int count)
         {
-            if (SalesCount >= count)
-                SalesCount -= count;
-            else
-                SalesCount = 0;
+            SalesCount = Math.Max(SalesCount - count, 0);
         }
         public void UpdateRevenue(decimal amount)
         {
